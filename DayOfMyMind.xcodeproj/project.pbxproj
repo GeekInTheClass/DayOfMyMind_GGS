@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE39BD7E2015A5F200E946F2 /* DiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39BD7D2015A5F200E946F2 /* DiaryTableViewController.swift */; };
+		AE39BD802015AACE00E946F2 /* DosoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39BD7F2015AACE00E946F2 /* DosoonModel.swift */; };
 		AEB2177A2014BEEF003869F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB217792014BEEF003869F6 /* AppDelegate.swift */; };
 		AEB2177C2014BEEF003869F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB2177B2014BEEF003869F6 /* ViewController.swift */; };
 		AEB2177F2014BEEF003869F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB2177D2014BEEF003869F6 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE39BD7D2015A5F200E946F2 /* DiaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewController.swift; sourceTree = "<group>"; };
+		AE39BD7F2015AACE00E946F2 /* DosoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosoonModel.swift; sourceTree = "<group>"; };
 		AEB217762014BEEF003869F6 /* DayOfMyMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayOfMyMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB217792014BEEF003869F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB2177B2014BEEF003869F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,9 +61,11 @@
 				AEB217792014BEEF003869F6 /* AppDelegate.swift */,
 				AEB2177B2014BEEF003869F6 /* ViewController.swift */,
 				AEB2177D2014BEEF003869F6 /* Main.storyboard */,
+				AE39BD7D2015A5F200E946F2 /* DiaryTableViewController.swift */,
 				AEB217802014BEEF003869F6 /* Assets.xcassets */,
 				AEB217822014BEEF003869F6 /* LaunchScreen.storyboard */,
 				AEB217852014BEEF003869F6 /* Info.plist */,
+				AE39BD7F2015AACE00E946F2 /* DosoonModel.swift */,
 			);
 			path = DayOfMyMind;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEB2177C2014BEEF003869F6 /* ViewController.swift in Sources */,
+				AE39BD7E2015A5F200E946F2 /* DiaryTableViewController.swift in Sources */,
 				AEB2177A2014BEEF003869F6 /* AppDelegate.swift in Sources */,
+				AE39BD802015AACE00E946F2 /* DosoonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
